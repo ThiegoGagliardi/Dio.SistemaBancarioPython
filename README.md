@@ -36,6 +36,9 @@ As principais funções do programa incluem:
 - `depositar()`: Função auxiliar para realizar um depósito.
 - `efetuar_saque()`: Realiza um saque na conta.
 - `pode_realizar_saque()`: Verifica se um saque pode ser realizado com base nos limites estabelecidos.
+- `criar_conta()`: Insere conta e vincula a um cliente, usa uma constante para definir a agência e um sequencial para definir o numero da conta .
+- `criar_cliente()`: Insere cliente em uma lista, requer os dados Nome, CPF, Data Nascimento e Endereço.
+- `Listar Contas()`: Lista todas as contas, informando os dados do titular e os dados da conta.
 - `sacar()`: Função auxiliar para realizar um saque.
 - O loop `while True` controla a execução contínua do programa.
 
